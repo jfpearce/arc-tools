@@ -1,0 +1,68 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 10px;
+    background-color: #efefef;
+    color: #333333;
+ // border: 15px solid #efefef;
+
+}
+ 
+#footer {
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+#emplist_result{
+  text-align: center;
+}
+
+img{
+  border: 0px;
+}
+
+.wrap {border: 10px solid #696;  min-height: 450px;
+  padding: 10px;
+ background-color: #fff;  -moz-border-radius: 8px; -webkit-border-radius: 8px; }
+
+.itembox {border: 1px solid #000000; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+h2 { color: green;}
+
+h3 { color: green;}
+
+h1 {color: green;}
+.lausval {
+     text-align: right;
+}
+.dcell {
+     text-align: right;
+}
+
+.sbutn {
+  // border: 1px solid #9b9;
+  padding: 3px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #696;
+  -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px; 
+    }
+
+.sbutn:hover {
+   // border: 1px dotted #333;
+    background-color: #9b9;
+    }
+
+
+.sectionTitle {
+  margin-top: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 12px; 
+  font-weight: bold; 
+  color: #339966;
+  padding-top: 15px;     
+}

@@ -1,0 +1,722 @@
+body{
+	margin: 0px;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+#body_bg{
+	background-image: url(images/bg_pattern.gif);
+	background-repeat: repeat;
+}
+div.clearfix{
+	clear: both;
+}
+
+
+/* JOOMLA! DEFAULT STYLING
+--------------------------------------------------------- */
+a:link, a:visited {
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004899;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0px;
+}
+ul a:link, ul a:visited{
+	color: #5589c7;
+	text-decoration: none;
+}
+ul a:hover{
+	text-decoration: underline;
+}
+.contentheading {
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #004899;
+}
+.contentheading a:link, .contentheading a:visited {
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #004899;
+	text-decoration: none;
+}
+.contentheading a:hover {
+	text-decoration: underline;
+}
+td{
+	margin: 0px;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+.modifydate{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #939393;
+	padding-top: 15px;
+}
+.small{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #939393;
+}
+.createdate{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #939393;
+}
+.readon{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004899;
+}
+a.readon:link, a.readon:visited {
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004899;
+	text-decoration: none;
+}
+a.readon:hover {
+	text-decoration: underline;
+}
+td.buttonheading {
+	width: 16px;
+}
+.sectiontableheader {
+	background-color : #cbcbcb;
+	background-repeat: repeat;
+	padding: 2px;
+	color : #FFFFFF;
+	font-weight : bold;
+	padding: 2px;
+}
+.mosimage_caption{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #838383;
+	padding-top: 5px;
+}
+.componentheading {
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #313640;
+}
+.back_button {
+	float: left;
+	text-align: center;
+	font-size: 11px;
+	border: 3px double #cccccc;
+	width: auto;
+	background: url(images/button_bg.png) repeat-x;
+	padding: 0px 10px;
+	line-height: 20px;
+	margin: 1px;
+}
+.back_button a:link, .back_button a:visited{
+	font-size: 11px;
+}
+.back_button a:hover{
+	color: #000000;
+}
+a.back_button:link, a.back_button:visited{
+	font-size: 11px;
+}
+a.back_button:hover{
+	color: #000000;
+}
+.pagenav {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	border: 3px double #cccccc;
+	width: auto;
+	background: url(images/button_bg.png) repeat-x;
+	padding: 0px 10px;
+	line-height: 20px;
+	margin: 1px;
+}
+a.pagenav:link, a.pagenav:visited{
+	font-size: 11px;
+}
+a.pagenav:hover{
+	color: #000000;
+}
+
+.pagenavbar {
+	margin-right: 10px;
+	float: right;
+}
+
+
+/* CUSTOM STYLING
+--------------------------------------------------------- */
+div#wrapper{
+	width: 960px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #f6f6f6;
+	border-left-color: #f6f6f6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f6f6f6;
+}
+div#top{
+	// background-image: url(images/topmenu_bg.gif);  
+        background-image: url(images/bg_pattern.gif);        
+	background-repeat: repeat-x;
+	height: 31px;
+}
+
+
+/* TOP MENU STYLING
+--------------------------------------------------------- */
+div#topmenu {
+	margin-top: 0px;
+	font-size: 11px;
+	text-align: left;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	padding-top: 8px;
+	padding-right: 0;
+	padding-left: 0;
+	color: #FFFFFF;
+	float: left;
+}
+div#topmenu a {
+	color: #FFFFFF;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+}
+div#topmenu a:hover {
+	// color: #9acf02;
+        color: #bb0000;
+	text-decoration: none;
+}
+div#topmenu li {
+	padding: 0;
+	display: inline;
+	background: none;
+}
+div#topmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#feed{
+	padding-top: 7px;
+	padding-right: 5px;
+	float: right;
+}
+
+
+
+/* TOP USERS (user1 & user9)
+--------------------------------------------------------- */
+div#top_users{
+	height: 104px;
+	background-color: #ebebeb;
+}
+div#user1_block{
+	height: 73px;
+	width: 749px;
+	margin-top: 15px;
+	margin-left: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #b9b9b9;
+	float: left;
+}
+div#user1{
+	height: 73px;
+	width: 739px;
+	overflow: hidden;
+	float: left;
+	text-align: left;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #888888;
+}
+div#user1 a:link, div#user1 a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #004899;
+	text-decoration: none;
+}
+div#user1 a:hover{
+	text-decoration: underline;
+}
+div#user1 h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #474747;
+	padding: 0px;
+	margin: 0px;
+}
+div#user9_block{
+	height: 73px;
+	width: 183px;
+	margin-top: 15px;
+	margin-right: 1em;
+	float: right;
+}
+div#user9{
+	height: 73px;
+	width: 173px;
+	overflow: hidden;
+	float: right;
+	text-align: left;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #888888;
+}
+div#user9 a:link, div#user9 a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #004899;
+	text-decoration: none;
+}
+div#user9 a:hover{
+	text-decoration: underline;
+}
+div#user9 h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #474747;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* HEADER
+--------------------------------------------------------- */
+div.header_bg{
+        background-color: #fff;
+	background-repeat: repeat-x;
+	height: 64px;
+}
+div#header{
+	background-color: #fff;
+	background-repeat: repeat-x;
+	height: 64px;
+}
+
+
+/* PATHWAY & DATE
+--------------------------------------------------------- */
+div#pw{
+	background-image: url(images/pathway_bg.gif);
+	background-repeat: repeat-x;
+	height: 29px;
+	overflow: hidden;
+}
+#pathway{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5f5e5e;
+	text-align: left;
+	float: left;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+div#pathway a:link, div#pathway a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #004899;
+	text-decoration: none;
+}
+div#pathway a:hover{
+	text-decoration: underline;
+}
+div#date{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5f5e5e;
+	text-align: right;
+	float: right;
+	padding-top: 7px;
+	padding-right: 10px;
+}
+
+
+/* CONTENT
+--------------------------------------------------------- */
+/* MODULES STYLING */
+div#left{
+	width: 170px;
+	margin-left: 10px;
+}
+div#left h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #585858;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #a0a0a0;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+div#left .moduletable{
+	margin-bottom: 15px;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #585858;
+}
+div#left ul{
+	margin: 0px;
+	margin-left: 0px;
+	padding: 5px;
+        background: none;
+        list style: none;
+}
+
+div#left ul li {font-size: 25px; text-decoration: none; list-style: none; color: #585858;}
+
+
+div#left ul li a {font-size: 11px; color: #585858;} 
+
+
+div#left a:link, div#left a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+        font-weight: bold;
+	color: #cc0000;
+	text-decoration: none;
+}
+div#left a:hover{
+	text-decoration: underline;
+}
+
+div#inset{
+	width: 170px;
+	margin-left: 10px;
+}
+div#inset h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #585858;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #a0a0a0;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+div#inset .moduletable{
+	margin-bottom: 15px;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #585858;
+}
+div#inset ul{
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0px;
+	list-style-image: url(images/menu_arrow.gif);
+}
+div#inset a:link, div#inset a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004899;
+	text-decoration: none;
+}
+div#inset a:hover{
+	text-decoration: underline;
+}
+
+div#right{
+	width: 220px;
+}
+div#right h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5f5e5e;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #a0a0a0;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+div#right .moduletable{
+	margin-bottom: 15px;
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #585858;
+	background-color: #f2f2f2;
+	border: 1px solid #cbcbcb;
+	padding: 15px;
+}
+div#right ul{
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0px;
+	list-style-image: url(images/menu_arrow.gif);
+}
+div#right a:link, div#right a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004899;
+	text-decoration: none;
+}
+div#right a:hover{
+	text-decoration: underline;
+}
+
+div#maincontent{
+	background-color: #FFFFFF;
+}
+div#banner{
+	margin-bottom: 15px;
+}
+.leftblock, .insetblock, td.content, .rightblock{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.leftblock{
+	background-color: #f6f6f6;
+	background-image: url(images/leftblock_bg.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.insetblock{
+	background-color: #e0e0e0;
+	background-image: url(images/inset_bg.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+td.content{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.rightblock{}
+
+
+/* USERS MODULES STYLING (user 2,3,4,5)
+--------------------------------------------------------- */
+div#user2_3{
+	margin-bottom: 20px;
+}
+div#bottom_users{
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #b9b9b9;
+}
+
+div#user2,
+div#user3,
+div#user4,
+div#user5{}
+
+div#user2 h3,
+div#user3 h3,
+div#user4 h3,
+div#user5 h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+div#user2 .moduletable,
+div#user3 .moduletable,
+div#user4 .moduletable,
+div#user5 .moduletable{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #585858;
+}
+div#user2 ul,
+div#user3 ul,
+div#user4 ul,
+div#user5 ul{
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0px;
+	list-style-image: url(images/menu_arrow.gif);
+}
+div#user2 a:link, div#user2 a:visited,
+div#user3 a:link, div#user3 a:visited,
+div#user4 a:link, div#user4 a:visited,
+div#user5 a:link, div#user5 a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #004899;
+	text-decoration: none;
+}
+div#user2 a:hover,
+div#user3 a:hover,
+div#user4 a:hover,
+div#user5 a:hover{
+	text-decoration: underline;
+}
+
+
+/* BOTTOM
+--------------------------------------------------------- */
+div#bottom_users_extra{
+	background-image: url(images/bottom_users_bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #ebebeb;
+}
+
+/* USERS MODULES STYLING (user 6,7,8) */
+div#bottom_users_extra{}
+
+div#user6,
+div#user7,
+div#user8{}
+
+div#user6 h3,
+div#user7 h3,
+div#user8 h3{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	text-align: left;
+}
+div#user6 .moduletable,
+div#user7 .moduletable,
+div#user8 .moduletable{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #585858;
+	text-align: left;
+	padding: 20px;
+}
+div#user6 ul,
+div#user7 ul,
+div#user8 ul{
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0px;
+	list-style-image: url(images/menu_arrow.gif);
+}
+div#user6 a:link, div#user6 a:visited,
+div#user7 a:link, div#user7 a:visited,
+div#user8 a:link, div#user8 a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #004899;
+	text-decoration: none;
+}
+div#user6 a:hover,
+div#user7 a:hover,
+div#user8 a:hover{
+	text-decoration: underline;
+}
+
+/* FOOTER */
+div#footer{
+	background-image: url(images/footer_bg.gif);
+	background-repeat: repeat-x;
+	height: 28px;
+}
+div.copyright{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #c0c0c0;
+	line-height: 2.5em;
+}
+div.copyright a:link, div.copyright a:visited{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #c0c0c0;
+	text-decoration: none;
+}
+div.copyright a:hover{
+	font-family: "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #c0c0c0;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+div#footerwrap{
+	background-color: #117865;
+	margin-top: 0px;
+	padding:0;
+}
+
+/* Additions for Guam LMI Site */
+.dcell {text-align: right;}
+
+.quickstats {padding: 15px; border: 3px double #cccccc; background-color: #f6f6f6; }
+
+.small{font-size: .8em;}
+
+.quickstatsheader{font-size: 14px;}
+
+.sectionTitle {
+  margin-top: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 12px; 
+  font-weight: bold; 
+  color: #336699;
+  padding-top: 15px; 
+  text-decoration:overline;
+  text-decoration:underline       
+}
+
+li.lev0 a{
+  padding-left: 5px;
+}
+
+li.lev1 a{
+  padding-left: 12px;
+}
+
+li.lev2 a{
+  padding-left: 19px;
+}
+
+li.lev3 a{
+  padding-left: 26px;
+}
+
+li.lev4 a{
+  padding-left: 33px;
+}
+
+li.lev5 a{
+  padding-left: 40px;
+}
+
+ td.lev2{
+  padding-left:  10px;
+}
+
+
+ td.lev3{
+  padding-left:  20px;
+}
+
+
+ td.lev4{
+  padding-left:  30px;
+}
